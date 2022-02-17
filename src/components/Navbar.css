@@ -1,0 +1,64 @@
+.logo {
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.navbar-conatainer {
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background: linear-gradient(to right, #021b79, #0575e6);
+  padding: 0 12rem;
+  z-index: 5000;
+}
+
+.nav-links ul {
+  height: 5rem;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 12rem;
+}
+
+.nav-links ul li {
+  margin-right: 5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e6edf2bb;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 0.4rem 0.6rem;
+}
+
+.nav-link:hover {
+  box-shadow: 0 0 0 2px #00af4e;
+  border-radius: 5rem;
+  transition: all 0.25s ease-in;
+}
+
+@media  (min-width:1080px) and (max-width:1980px) {
+  .logo{
+    font-size: 1.8rem;
+  }
+  .navbar-conatainer{
+    padding: 0 2rem;
+  }
+  .nav-links ul{
+    margin-left: 4rem;
+  }
+
+  .nav-links ul li{
+    font-size:1.4rem ;
+    margin-right: 3rem;
+  }
+}

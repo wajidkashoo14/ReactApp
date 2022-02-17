@@ -1,0 +1,96 @@
+.btn-primary {
+  background-color: #eee;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 3px 5px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+ .btn-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 1rem 1.6rem;
+  margin: 3px 5px;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  
+}
+
+.btn-large:hover,.btn-primary:hover  {
+  box-shadow: 0 0 0 3px #ccc;
+  transition: all 0.2s ease-out;
+  color: #00af4e;
+}
+.btn-card{
+  background-color: transparent;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.746);
+  padding: .1rem 0;
+  border: none;
+  border-bottom: 2px solid #FF4500 ;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-card:hover{
+ color: #4B0082;
+ transition: all 0.3s;
+
+}
+
+
+.btn-form{
+  background-color: #001245 ;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding: .7rem 1.2rem;
+  font-family: poppins, sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+}
+
+.btn-footer{
+  background-color: #001245 ;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: .8rem 1rem;
+  font-family: poppins, sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.btn-footer:hover{
+  color: #00af4e;
+}
+

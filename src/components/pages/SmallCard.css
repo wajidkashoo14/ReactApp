@@ -1,0 +1,87 @@
+.smallcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 15rem;
+    background-color: 	#FFFFFF;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.square{
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    height: 18rem;
+    width: 18rem;
+    background: transparent;
+    border: 15px solid #9bd2d27a;
+    z-index:-1;
+    margin-left: 5rem;
+}
+
+.cardone{
+    border-radius: 30px 30px 0px 30px;
+    scroll-margin-right: 0;
+}
+.cardtwo{
+    border-radius: 30px 30px 30px 30px;
+
+}
+.cardthree{
+    border-radius: 30px 30px 30px 0px;
+}
+.cardfour{
+    border-radius: 0px 30px 30px 30px;
+}
+
+.largecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    width: 16rem;
+    background-color: 	#FFFFFF;
+    margin: 1rem;
+    padding: 1rem;
+}
+.smallcardholder{
+    position: relative;
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    z-index: 1000;
+    
+}
+.column__one{
+    margin-top: -3rem;
+}
+.small__card__container__info{
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+
+@media  (min-width:1080px) and (max-width:1980px){
+    .smallcard{
+        height: 12rem;
+        width: 12rem;
+    }
+    .largecard{
+        height: 13rem;
+        width: 13rem;
+    }
+    .square{
+        height: 15rem;
+        height: 15rem;
+        left: 10%;
+    }
+}
+
+
+
+

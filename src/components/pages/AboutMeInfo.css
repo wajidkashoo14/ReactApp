@@ -1,0 +1,51 @@
+.aboutmeinfo__container{
+    padding: 5rem;
+    width: 55rem;
+    margin: -5rem 2rem 2rem 2rem;
+    overflow: hidden;
+}
+
+.aboutmeinfo__container h4{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+    font-size: 2rem;
+    padding: 0 .5rem;
+    color: 	#4B0082;
+    border-left: 3px solid 	#FF4500;
+}
+
+.aboutmeinfo__container h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    margin-top: 1.5rem;
+    color: #001245;
+    line-height: 4rem;
+}
+
+.aboutmeinfo__container p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: poppins, sans-serif;
+    color: #778899; 
+    text-align: start;
+}
+
+@media  (min-width:1080px) and (max-width:1980px){
+    .aboutmeinfo__container{
+        width: 45rem;
+    }
+    .aboutmeinfo__container h1{
+        font-size: 2rem;
+        line-height: 3.3rem;
+    }
+    .aboutmeinfo__container p{
+        text-align:left;
+        font-size: 1.6rem;
+    }
+}
+

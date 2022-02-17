@@ -1,0 +1,75 @@
+.squareOne{
+    height: 8rem;
+    width: 8rem;
+    background-color: transparent;
+    border-style: dotted;
+    border: 7px dotted #FF4500;
+    position: relative;
+    line-height: 0;
+    opacity: 0.4;
+}
+.squareTwo{
+    top: 7%;
+    left: 7%;
+    height: 6rem;
+    width: 6rem;
+    background-color: transparent;
+    border: 7px dotted #FF4500;
+    position: absolute;
+    line-height: 0;
+    opacity: 0.4;
+    
+}
+.squareThree{
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    height: 4rem;
+    width: 4rem;
+    background-color: transparent;
+    border: 7px dotted #FF4500;
+    line-height: 0;
+    opacity: 0.4;
+}
+.squareFour{
+    top: 33%;
+    left: 33%;
+    position: absolute;
+    height: 2.2rem;
+    width: 2.2rem;
+    line-height: 0;
+    opacity: 0.8;
+    border: 7px dotted #FF4500;
+    opacity: 0.4;
+}
+.squareFour{
+    top: 34%;
+    left: 34%;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+    border: 7px dotted #FF4500;
+    opacity: 0.4;
+}
+.squareFour{
+    top: 34%;
+    left: 34%;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+    border: 7px dotted #FF4500;
+    opacity: 0.4;
+}
+.squareFive{
+    top: 45%;
+    left: 45%;
+    position: absolute;
+    height: .5rem;
+    width: .5rem;
+    border-radius: 50%;
+    line-height: 0;
+    background-color: #FF4500;
+    opacity: 0.4;
+}
