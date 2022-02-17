@@ -11,7 +11,7 @@ function SmallCard({img, info, cardStyle, cardSize}) {
 
 
   return <div className={`${checkStytle} ${checkSize}`}>
-      <img src={img} className='small__card__container__img'/>
+      <img src={img} className='small__card__container__img' alt={info}/>
       <p className='small__card__container__info'>{info}</p>
   </div>;
 }

@@ -3,7 +3,7 @@ import Button from "../Button";
 import Square from "./Square";
 import "./HeroSection.css";
 import Developer from "../assets/developer.png";
-import Triangle from "./Triangle";
+
 
 function HeroSection() {
   return (
@@ -23,13 +23,9 @@ function HeroSection() {
           <div className="square_sq">
          <Square />
           </div>
-
-          {/* <div className="triangle__home">
-          <Triangle />
-          </div> */}
-      </article>
+          </article>
       <div className="hero-svg">
-        <img src={Developer} className="hero-img" />
+        <img src={Developer} className="hero-img" alt="svg"/>
       </div>
       
     </div>
