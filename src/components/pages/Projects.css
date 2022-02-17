@@ -66,12 +66,15 @@
 .project__card__info{
     position: relative;
     height: 20%;
-    display: flex;
+    width: 100%;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: -.7rem 3rem 0rem 3rem;
+    align-items: center; */
+    /* margin: -.7rem 3rem 0rem 3rem; */
 }
 .project__card__info h4{
+  position: absolute;
+  left: 5%;
   font-size: 1.2rem;
   font-family: poppins,sans-serif;
   font-weight: 600;
@@ -84,7 +87,7 @@
     .project__card{
         display: flex;
         flex-wrap: wrap;
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        height: 25rem;
     }
 }
