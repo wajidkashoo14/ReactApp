@@ -11,7 +11,7 @@ return (
     <div className="FeedbackCard">
       <div className="client__detail">
               <figure className="client__detail__img">
-                <img src={cards[currCard].image} alt='' />
+                <img src={cards[currCard].image} alt='kaaz' />
               </figure>
               <div className="client__detail__info">
                 <h3>{cards[currCard].name}</h3>

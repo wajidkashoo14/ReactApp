@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 15rem;
-    width: 15rem;
+    max-height: 15rem;
+    max-width: 15rem;
     background-color: 	#FFFFFF;
     margin: 2rem;
     padding: 1rem;
@@ -50,7 +50,7 @@
 }
 .smallcardholder{
     position: relative;
-    width: 45rem;
+    max-width: 45rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;

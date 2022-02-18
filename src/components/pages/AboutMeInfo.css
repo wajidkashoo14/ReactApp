@@ -1,6 +1,6 @@
 .aboutmeinfo__container{
     padding: 5rem;
-    width: 55rem;
+    max-width: 55rem;
     margin: -5rem 2rem 2rem 2rem;
     overflow: hidden;
 }
