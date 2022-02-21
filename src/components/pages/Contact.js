@@ -5,10 +5,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='contact__container'>
-      <div className="contact__heading">
         <h2>contact me</h2>
-        {/* <h1>let's talk about you</h1> */}
-      </div>
     <div className='contact'>
      <from className='form'>
        <h3>send a message</h3>

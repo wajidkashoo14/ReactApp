@@ -11,7 +11,7 @@
   align-items: center;
   position: fixed;
   background: linear-gradient(to right, #021b79, #0575e6);
-  padding: 0 12rem;
+  padding: 0 3rem;
   z-index: 5000;
 }
 
@@ -50,9 +50,9 @@
   .logo{
     font-size: 1.8rem;
   }
-  .navbar-conatainer{
+  /* .navbar-conatainer{
     padding: 0 2rem;
-  }
+  } */
   .nav-links ul{
     margin-left: 4rem;
   }

@@ -4,7 +4,6 @@ import Prototype from '../assets/prototype.png'
 import UserTesting from'../assets/user testing.png'
 import UserResearch from '../assets/userresearch.png'
 import VisualDesign from '../assets/visual design.png'
-
 import './SmallCard.css'
 
 function SmallCardHolder() {

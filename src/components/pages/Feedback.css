@@ -11,8 +11,9 @@
 
 .testmonials{
     position: relative;
-    height: 90%;
+    height: 100%;
     width: 80%;
+    max-width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +35,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     width: 30rem;
     letter-spacing: .1rem;
     flex-wrap: wrap;
@@ -56,8 +57,8 @@
     position: absolute;
     top:-5%;
     left:-13%;
-    width: 45rem;
-    height: 25rem;
+    max-width: 35rem;
+    max-height: 25rem;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -102,8 +103,8 @@
 
 
 .client__detail__img img{
-    width: 7rem;
-    height: 7rem;
+    max-width: 7rem;
+    max-height: 7rem;
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -134,7 +135,7 @@ margin-top: 1.3rem;
 
 .feedback__detail{
     padding: 1rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     color: rgba(0, 0, 0, 0.616);
     font-size: 1rem;
     font-family: poppins, sans-serif;
@@ -142,13 +143,13 @@ margin-top: 1.3rem;
     line-height: 1.7rem;
 }
 
-@media  (min-width:1080px) and (max-width:1980px){
+@media  (min-width:1080px) and (max-width:1440px){
     .testmonials__img{
         width: 25rem;
     }
     .testmonials h1{
-        font-size: 2.2rem;
-        width: 22rem;
+        font-size: 1.6rem;
+        width: 18rem;
         margin-left: 10rem;
     }
     .FeedbackCard{
