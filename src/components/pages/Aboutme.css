@@ -1,7 +1,7 @@
 
 .aboutme__container{
     min-height: 100vh;
-    width: 100%;
+    max-width: 100%;
     padding: 10rem 3rem 2rem 3rem;
     background-color: #F1F1F1;
     overflow: hidden;
@@ -9,7 +9,7 @@
 }
 .aboutme__container__info{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
 }

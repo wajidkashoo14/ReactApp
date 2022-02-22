@@ -51,8 +51,8 @@
   transition: all 0.3s ease-in-out;
   position: absolute;
   right: 5%;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10%;
+  
 }
 
 .btn-card:hover{

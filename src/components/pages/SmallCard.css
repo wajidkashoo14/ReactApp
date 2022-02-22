@@ -1,6 +1,6 @@
 .smallcardholder{
     position: relative;
-    max-width: 55rem;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -14,8 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 28rem;
-    max-width: 28rem;
+    max-height: 20rem;
+    max-width: 20rem;
     background-color: 	#FFFFFF;
     margin: 2rem;
     padding: 1rem;
@@ -23,10 +23,11 @@
 
 .square{
     position: absolute;
-    top: 15%;
-    left: 22%;
-    max-height: 10rem;
-    max-width: 10rem;
+    top:20%;
+    left: 20%;
+    min-height: 12rem;
+    width: 12rem;
+    max-width: 12rem;
     background: transparent;
     border: 15px solid #9bd2d27a;
     z-index:-1;
@@ -53,8 +54,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 19rem;
-    max-width: 19rem;
+    max-height: 13rem;
+    max-width: 13rem;
     background-color: 	#FFFFFF;
     margin: 1rem;
     padding: 1rem;
@@ -68,21 +69,6 @@
     font-weight: 600;
 }
 
-/* @media  (min-width:1080px) and (max-width:1980px){
-    .smallcard{
-        height: 12rem;
-        width: 12rem;
-    }
-    .largecard{
-        height: 13rem;
-        width: 13rem;
-    }
-    .square{
-        height: 15rem;
-        height: 15rem;
-        left: 10%;
-    }
-} */
 
 
 
