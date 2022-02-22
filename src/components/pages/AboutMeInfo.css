@@ -22,7 +22,9 @@
     font-weight: 600;
     font-family: poppins, sans-serif;
     margin-top: 1.5rem;
-    color: #001245;
+    background-image: linear-gradient(60deg, #000428dc, #004e92e8);
+    background-clip: text;
+    color: transparent;
     line-height: 4rem;
 }
 

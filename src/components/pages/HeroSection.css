@@ -1,6 +1,6 @@
 .hero-section {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -16,13 +16,13 @@
   align-items: flex-start;
   margin: 13rem auto;
   min-height: 35rem;
-  width: 40rem;
-  padding-top: 2rem;
+  max-width: 43rem;
+  padding: 1rem;
 }
 
 .hero .hero-heading {
   color: rgb(255, 241, 241);
-  font-size: 4rem;
+  font-size: 3.5rem;
   letter-spacing: 0.1rem;
   font-weight: 900;
   line-height: 5.5rem;
@@ -65,16 +65,13 @@ svg{
   top: 60%;
   left: 70%;
 }
-
-/* @media (min-width:1080px) and (max-width:1980px){
-  .hero,
-.hero-svg{
-  margin: 5rem auto;
-
+@media only screen and (max-width:1080px){
+  .hero .hero-heading {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+  }
+  
+.hero .hero-description {
+  font-size: 1.3rem;
 }
-.hero,
-.hero-heading {
-  font-size: 3rem;
-  line-height: 3.5rem;
 }
-} */

@@ -14,7 +14,10 @@
 .card-section-container h1 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
-  color: #001245;
+  /* color: #001245; */
+  background-image: linear-gradient(60deg, #000428dc, #004e92e8);
+  background-clip: text;
+  color: transparent;
   text-align: center;
   text-transform: capitalize;
   margin-top: 8rem;

@@ -68,7 +68,7 @@
     font-weight: 600;
 }
 
-@media  (min-width:1080px) and (max-width:1980px){
+/* @media  (min-width:1080px) and (max-width:1980px){
     .smallcard{
         height: 12rem;
         width: 12rem;
@@ -82,7 +82,7 @@
         height: 15rem;
         left: 10%;
     }
-}
+} */
 
 
 
