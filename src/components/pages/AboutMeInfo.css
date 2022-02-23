@@ -97,7 +97,8 @@
         width: 16rem;
     }
     .aboutmeinfo__container{
-        padding: 1rem;
+        padding: 0rem;
+        margin: 2rem 0rem 2rem 0rem;
         
     }
     .aboutmeinfo__container p{
@@ -111,5 +112,6 @@
     .aboutmeinfo__container h1{
         text-align: left;
     }
+    
     }
 
