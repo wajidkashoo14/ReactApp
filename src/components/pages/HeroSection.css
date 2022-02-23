@@ -86,7 +86,7 @@ svg{
   font-size: 1.3rem;
 }
 }
-@media only screen and (max-width:1080px){
+@media only screen and (max-width:650px){
   .hero-section {
     display: block;
   }
