@@ -3,6 +3,7 @@
   background-color: #F1F1F1;
   min-height: 75vh;
   width: 100%;
+  
 }
 
 .card-container {
@@ -14,7 +15,6 @@
 .card-section-container h1 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
-  /* color: #001245; */
   background-image: linear-gradient(60deg, #000428dc, #004e92e8);
   background-clip: text;
   color: transparent;
@@ -48,14 +48,14 @@
 }
 
 img{
-  height: 5rem;
-  width: 5rem;
+  max-height: 5rem;
+  max-width: 5rem;
   background-position: center;
   background-size: cover;
 }
 
 .card h4{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: poppins, sans-serif;
   font-weight: 600;
 
@@ -65,19 +65,61 @@ img{
   margin-top: -1rem;
   font-family: poppins, sans-serif;
   font-weight: 400;
-  color:#2F4F4F;
+  color:#2f4f4fc7;
+  font-size: 1.3rem;
 
 }
 link {
   text-decoration: none;
 }
 
-/* @media  (min-width:1080px) and (max-width:1980px){
-  .card{
-    height: 18rem;
-    width: 18rem;
+@media only screen and (max-width:1440px){
+  .card h4{
+    font-size: 1.5rem;
   }
-} */
+  .card p{
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width:950px){
+  .card h4{
+    font-size: 1.2rem;
+  }
+  .card p{
+    font-size: 1rem;
+  }
+  img{
+  width: 4rem;
+  height: 4rem;
+}
+}
+
+@media only screen and (max-width:780px){
+  .card{
+    padding: 1rem;
+  }
+  .card h4{
+    font-size: 1rem;
+  }
+  .card p{
+    font-size: .8rem;
+  }
+  img{
+  width: 3rem;
+  height: 3rem;
+}
+}
+@media only screen and (max-width:650px){
+ .card-wrapper {
+    display: block;
+}
+.card{
+  margin: 2rem auto;
+  width: 15rem;
+  height: 12rem;
+}
+
+}
 
 
 
