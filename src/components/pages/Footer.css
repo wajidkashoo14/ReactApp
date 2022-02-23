@@ -143,9 +143,12 @@
 
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:650px){
     .footer__form input{
-        width: 12rem;
-        height: 2.5rem;
+        width: 15rem;
+        height: 2.8rem;
+    }
+    .footer__form input::placeholder{
+        font-size: 1.1rem;
     }
 }

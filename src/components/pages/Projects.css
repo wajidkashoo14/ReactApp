@@ -112,3 +112,11 @@
         display:inline-block ;
     }
 }
+@media only screen and (max-width:650px){
+    .projects h2{
+        width: 10rem;
+    }
+    .projects h1{
+        margin: 2rem auto;
+    }
+}

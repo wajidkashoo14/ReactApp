@@ -98,6 +98,18 @@
     }
     .aboutmeinfo__container{
         padding: 1rem;
+        
+    }
+    .aboutmeinfo__container p{
+       text-align: left;
+        
+    }
+    .aboutmeinfo__container h4{
+        width: 8rem;
+        font-size:1.1rem ;
+    }
+    .aboutmeinfo__container h1{
+        text-align: left;
     }
     }
 

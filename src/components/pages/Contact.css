@@ -31,7 +31,7 @@
 }
 
 .contact .form{
-  max-width: 60%;
+  max-width: 100%;
   width: 80%;
   display: flex;
   max-height: 60%;
@@ -103,10 +103,15 @@
     }
 }
 
-
-/* @media  (min-width:1080px) and (max-width:1980px){
-    .contact .form{
-        width: 60rem;
-        height: 43rem;
+@media only screen and (max-width:650px){
+    .form h3{
+        font-size: 1.5rem;
     }
-} */
+    .contact .form{
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+    .form label{
+        font-size: .8rem;
+    }
+}
