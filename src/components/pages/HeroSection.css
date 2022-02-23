@@ -36,7 +36,7 @@
   margin: 4rem 0 5rem 0;
   letter-spacing: 0.1rem;
  text-align: left;
- /* width: 40rem; */
+ 
 }
 
  .hero-img {
@@ -98,5 +98,26 @@ svg{
 .hero-svg{
   margin: 10rem 0rem 3rem 0rem;
   padding: 0;
+}
+}
+
+@media only screen and (max-width:450px){
+  .hero .hero-heading {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    width: 18rem;
+  }
+  .hero,
+.hero-svg{
+  margin-top: 10rem ;
+  padding: 0;
+}
+.hero .hero-description{
+  width: 20rem;
+}
+.square_sq{
+ 
+  
+   top: 50%;
 }
 }

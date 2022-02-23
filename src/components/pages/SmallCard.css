@@ -103,7 +103,7 @@
     }
     .largecard{
         height: 9rem;
-    width: 9rem;
+        width: 9rem;
     }
 }
 
@@ -123,6 +123,25 @@
         left: 20%;
     }
 }
+@media only screen and (max-width:650px){
+    .square{
+    
+        left: 10%;
+    }
+    .smallcard{
+        height: 9rem;
+        width: 9rem;
+        margin: 1rem;
+    }
+    .largecard{
+        height: 10rem;
+        width: 10rem;
+    }
+    .smallcardholder{
+       margin-bottom: 5rem;
+    }
+}
+
 
 
 

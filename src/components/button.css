@@ -98,11 +98,21 @@
   color: #00af4e;
 }
 
+
+
 @media only screen and (max-width:700px){
   .btn-footer{
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem .7rem;
+  }
+}
+@media only screen and (max-width:450px){
+  .btn-large{
+    font-size: .9rem;
+    padding: .7rem 1rem;
+    margin: 0;
+    font-weight: 600;
   }
 }
 
