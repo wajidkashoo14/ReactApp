@@ -1,6 +1,6 @@
 .aboutmeinfo__container{
     padding: 3rem;
-    max-width: 50%;
+    width: 50%;
     margin: -5rem 2rem 2rem 2rem;
     overflow: hidden;
 }
@@ -49,4 +49,52 @@
         font-size: 1.2rem;
     }
 }
+@media only screen and (max-width:1080px){
+   
+    .aboutmeinfo__container h1{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+    .aboutmeinfo__container p{
+        text-align:left;
+        font-size: 1rem;
+    }
+    .aboutmeinfo__container h4{
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width:850px){
+    .aboutmeinfo__container h1{
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+    .aboutmeinfo__container p{
+        text-align:left;
+        font-size: .8rem;
+    }
+    .aboutmeinfo__container h4{
+        font-size: 1.1rem;
+    }
+    .aboutmeinfo__container{
+        padding: 3rem 1rem;
+    }
+}
+@media only screen and (max-width:650px){
+    .aboutmeinfo__container{
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .aboutmeinfo__container h1{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .aboutmeinfo__container p{
+        text-align:left;
+        font-size: 1rem;
+    }
+    .aboutmeinfo__container h4{
+        font-size: 1.4rem;
+        width: 12rem;
+    }
+    }
 

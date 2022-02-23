@@ -47,7 +47,7 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-img{
+.cardTech-img{
   max-height: 5rem;
   max-width: 5rem;
   background-position: center;
@@ -88,7 +88,7 @@ link {
   .card p{
     font-size: 1rem;
   }
-  img{
+  .cardTech-img{
   width: 4rem;
   height: 4rem;
 }
@@ -104,7 +104,7 @@ link {
   .card p{
     font-size: .8rem;
   }
-  img{
+  .cardTech-img{
   width: 3rem;
   height: 3rem;
 }
@@ -117,6 +117,12 @@ link {
   margin: 2rem auto;
   width: 18rem;
   height: 15rem;
+}
+.card-section-container h1{
+  margin-top: 5rem;
+}
+.card-wrapper {
+  margin-top: 3rem;
 }
 
 }

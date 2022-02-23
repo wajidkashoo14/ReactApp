@@ -1,6 +1,6 @@
 .smallcardholder{
     position: relative;
-    max-width: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -25,7 +25,7 @@
     position: absolute;
     top:20%;
     left: 20%;
-    min-height: 12rem;
+    height: 12rem;
     width: 12rem;
     max-width: 12rem;
     background: transparent;
@@ -68,7 +68,61 @@
     font-family: poppins, sans-serif;
     font-weight: 600;
 }
+.small__card__container__img{
+    height: 4rem;
+    width: 4rem;
+}
+@media only screen and (max-width:1100px){
+    .square{
+    
+        left: 10%;
+        border: 12px solid #9bd2d27a;
+        height: 10rem;
+        width: 10rem;
+    }
+    .small__card__container__img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .small__card__container__info{
+        font-size: .8rem;
+    }
+    .smallcard{
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width:1000px){
+    .square{
+    
+        left: 6%;
+        height: 10rem;
+    }
+    .smallcard{
+        height: 8rem;
+        margin: 1rem;
+    }
+    .largecard{
+        height: 9rem;
+    width: 9rem;
+    }
+}
 
+@media only screen and (max-width:800px){
+    .square{
+    
+        left: 1%;
+    }
+}
+@media only screen and (max-width:650px){
+    .smallcardholder{
+        width: 100%;
+        /* margin: 1 auto; */
+    }
+    .square{
+    
+        left: 20%;
+    }
+}
 
 
 
