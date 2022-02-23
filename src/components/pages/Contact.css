@@ -31,8 +31,8 @@
 }
 
 .contact .form{
-  max-width: 100%;
-  width: 80%;
+  max-width: 80%;
+  width: 100%;
   display: flex;
   max-height: 60%;
   justify-content: center;
@@ -109,9 +109,17 @@
     }
     .contact .form{
         width: 100%;
-        padding: 1rem 1rem;
+        padding: 1rem ;
     }
     .form label{
         font-size: .8rem;
+    }
+    .contact__container{
+        text-align: center;
+        padding: 5rem 1rem;
+    }
+    .contact__container h2{
+       margin: 3rem auto;
+        width: 12rem;
     }
 }
