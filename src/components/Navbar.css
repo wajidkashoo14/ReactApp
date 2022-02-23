@@ -62,3 +62,9 @@
     margin-right: 3rem;
   }
 }
+
+@media only screen and (max-width:650px){
+  .nav-links{
+    display: none;
+  }
+}
