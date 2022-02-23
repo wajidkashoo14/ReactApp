@@ -145,10 +145,14 @@
 
 @media only screen and (max-width:650px){
     .footer__form input{
-        width: 15rem;
+        width: 20rem;
         height: 2.8rem;
     }
     .footer__form input::placeholder{
         font-size: 1.1rem;
     }
+    .footer{
+        padding: 1rem;
+    }
+    
 }
