@@ -85,16 +85,16 @@
         margin: 3rem auto;
     }
     .aboutmeinfo__container h1{
-        font-size: 1.4rem;
-        line-height: 1.8rem;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
     }
     .aboutmeinfo__container p{
         text-align:left;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .aboutmeinfo__container h4{
-        font-size: 1.4rem;
-        width: 12rem;
+        font-size: 2rem;
+        width: 16rem;
     }
     }
 
