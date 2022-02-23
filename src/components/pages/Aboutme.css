@@ -19,6 +19,13 @@
     top: 60%;
     left: 40%;
 }
+@media only screen and (max-width:850px){
+    .square__about{
+        position: absolute;
+        top: 78%;
+        left: 30%;
+    }
+}
 @media only screen and (max-width:650px){
     .aboutme__container{
         padding: 6rem 3rem 2rem 3rem;

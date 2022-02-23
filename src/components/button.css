@@ -109,10 +109,11 @@
 }
 @media only screen and (max-width:450px){
   .btn-large{
-    font-size: .9rem;
-    padding: .7rem 1rem;
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
     margin: 0;
     font-weight: 600;
+    width: 12rem;
   }
 }
 

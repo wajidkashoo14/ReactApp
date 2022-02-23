@@ -103,7 +103,8 @@ svg{
 
 @media only screen and (max-width:450px){
   .hero-section{
-    min-height: 100vh;
+    min-height: 80vh;
+    z-index: -1;
   }
   .hero .hero-heading {
     font-size: 2.2rem;
@@ -119,7 +120,7 @@ svg{
   width: 20rem;
 }
 .square_sq{
- top: 50%;
+ top: 40%;
 }
 .hero-svg{
   text-align: center;
@@ -128,9 +129,15 @@ svg{
 .hero-img {
   align-items: center;
   justify-content: center;
-  height: 20rem;
-  width: 20rem;
-  margin: 1rem auto;
+  height: 22rem;
+  width: 22rem;
+  margin-top: 1rem;
   padding: 0;
+}
+.hero .hero-description{
+  margin-bottom: 4rem;
+}
+svg{
+  margin-left: .3rem;
 }
 }

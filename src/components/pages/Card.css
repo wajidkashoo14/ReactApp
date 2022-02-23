@@ -136,6 +136,10 @@ link {
 .card p{
   font-size: 1rem;
 }
+.card-section-container {
+  margin-top: -12rem;
+  z-index: 5000;
+}
 
 }
 
