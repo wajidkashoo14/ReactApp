@@ -15,16 +15,19 @@ function CardSection() {
           img={ImageOne}
             title="UI/UX"
             info="lorem10 i like autum and winter un the deason"
+            
           />
           <Card
           img={ImageTwo}
             title="Prototype"
             info="lorem10 i like autum and winter un the deason"
+            
           />
           <Card
           img={ImageThree}
             title="Develop"
             info="lorem10 i like autum and winter un the deason  "
+            
           />
         </div>
       </div>
