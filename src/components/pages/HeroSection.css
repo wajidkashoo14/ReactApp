@@ -26,6 +26,7 @@
   letter-spacing: 0.1rem;
   font-weight: 900;
   line-height: 5.5rem;
+  width: 30rem;
 }
 
 .hero .hero-description {
@@ -35,6 +36,7 @@
   margin: 4rem 0 5rem 0;
   letter-spacing: 0.1rem;
  text-align: left;
+ /* width: 40rem; */
 }
 
  .hero-img {

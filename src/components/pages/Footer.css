@@ -29,8 +29,8 @@
     top: 10%;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 80%;
-    min-height: 15rem;
+    max-width: 80%;
+    min-height: 12rem;
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
@@ -40,6 +40,7 @@
     background-color: rgba(64, 54, 156, 0.288);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.151);
+    z-index: 500;
     
 }
 
@@ -63,8 +64,8 @@
     font-family: poppins,sans-serif;
     font-weight: 600;
     background-image: linear-gradient(60deg, #000428dc, #004e92e8);
-  background-clip: text;
-  color: transparent;
+    background-clip: text;
+    color: transparent;
     margin: 1rem 0;
 }
 
@@ -89,7 +90,10 @@
     font-size: 1.4rem;
 }
 
-@media only screen and (max-width:1350px) {
+@media only screen and (max-width:1440px) {
+    /* .footer{
+        height: 12rem;
+    } */
   
     .headings h1{
         font-size: 1.5rem;
