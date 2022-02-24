@@ -116,11 +116,22 @@
     width: 12rem;
     z-index: 50000;
   }
+  .btn-large:focus{
+    outline: none;
+  }
 }
 @media only screen and (max-width:450px){
   .btn-form{
-    padding: .5rem .5rem;
-    width: 6rem;
+    padding: .5rem .8rem;
+    width: 30%;
+    position: absolute;
+   bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: auto;
+  }
+  .btn-form:focus{
+    outline: none;
   }
 }
 

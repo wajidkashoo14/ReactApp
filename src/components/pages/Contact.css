@@ -135,8 +135,13 @@
     .contact {
         margin: 0;
         padding: 0;
+        text-align: center;
     }
     .contact .form{
         width: 100%;
+        position: relative;
+        padding-bottom: 2.5rem;
+        /* display: grid;
+    place-items: center; */
     }
 }
