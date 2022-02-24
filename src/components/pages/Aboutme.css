@@ -19,6 +19,13 @@
     top: 60%;
     left: 40%;
 }
+@media only screen and (max-width:1250px){
+    .square__about{
+        position: absolute;
+        top: 82%;
+        left: 40%;
+    }
+}
 @media only screen and (max-width:850px){
     .square__about{
         position: absolute;

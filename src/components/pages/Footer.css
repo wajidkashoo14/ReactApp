@@ -91,12 +91,14 @@
 }
 
 @media only screen and (max-width:1440px) {
-    /* .footer{
-        height: 12rem;
-    } */
-  
+    
+    
+    .footer{
+        width: 80%;
+    }
     .headings h1{
         font-size: 1.5rem;
+        
     }
 }
 @media only screen and (max-width:1150px) {
