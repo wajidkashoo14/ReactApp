@@ -96,7 +96,7 @@ svg{
   }
   .hero,
 .hero-svg{
-  margin: 10rem 0rem 3rem 0rem;
+  margin: 8rem 0rem 3rem 0rem;
   padding: 0;
 }
 }
@@ -104,27 +104,32 @@ svg{
 @media only screen and (max-width:450px){
   .hero-section{
     min-height: 80vh;
-    z-index: -1;
+    height: 170vh;
+    z-index: 1;
+    padding: 1.5rem;
   }
   .hero .hero-heading {
-    font-size: 2.2rem;
-    line-height: 3rem;
-    width: 18rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    width: 22rem;
   }
-  .hero,
+  .hero{
+ 
+  margin-top:8rem ;
+  padding: 2rem 0;
+}
 .hero-svg{
-  margin-top: 10rem ;
-  padding: 0;
+  margin-top:0rem auto ;
 }
 .hero .hero-description{
   width: 20rem;
 }
 .square_sq{
- top: 40%;
+ top: 60%;
 }
 .hero-svg{
   text-align: center;
-  margin: 12rem auto;
+  margin: 6rem auto;
 }
 .hero-img {
   align-items: center;

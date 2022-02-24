@@ -102,15 +102,18 @@
         
     }
     .aboutmeinfo__container p{
-       text-align: left;
+       text-align: justify;
         
     }
     .aboutmeinfo__container h4{
+        width: 100%;
+        margin: 0 auto;
         width: 8rem;
         font-size:1.1rem ;
+        text-align: center;
     }
     .aboutmeinfo__container h1{
-        text-align: left;
+        text-align: center;
     }
     
     }

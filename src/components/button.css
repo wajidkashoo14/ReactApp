@@ -114,6 +114,7 @@
     margin: 0;
     font-weight: 600;
     width: 12rem;
+    z-index: 50000;
   }
 }
 
