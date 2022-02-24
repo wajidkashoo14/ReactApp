@@ -106,7 +106,7 @@ svg{
     min-height: 80vh;
     height: 170vh;
     z-index: 1;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
   }
   .hero .hero-heading {
     font-size: 2.5rem;
@@ -125,7 +125,7 @@ svg{
   width: 20rem;
 }
 .square_sq{
- top: 60%;
+ top: 55%;
 }
 .hero-svg{
   text-align: center;
