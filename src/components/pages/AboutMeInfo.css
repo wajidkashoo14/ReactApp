@@ -117,4 +117,10 @@
     }
     
     }
+    @media only screen and (max-width:450px){
+        .aboutmeinfo__container h1{
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+        }
+    }
 

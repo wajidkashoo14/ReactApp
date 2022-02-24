@@ -176,6 +176,72 @@ margin-top: 1.3rem;
 }
 }
 
+@media only screen and (max-width:550px){
+    .feedback{
+        text-align: center;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .testmonials{
+        text-align: center;
+        display: block;
+        width: 100%;
+        
+
+    }
+ .testmonials__img{
+        display: none;
+    }
+    .testmonials h1{
+        font-size: 1.8rem;
+        width: 18rem;
+    }
+    .FeedbackCard{
+        top: 60%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 1rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        
+    }
+    .client__detail{
+        padding: 1rem;
+        left: 0;
+        top: 0%;
+        margin-right: auto;
+    }
+    .client__detail__img img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .client__detail__info{
+        margin-left: -2rem;
+        margin-top: 1rem;
+        }
+        .client__detail__info h3{
+            font-size: 1rem;
+        }
+        .client__detail__info p{
+            font-size: .8rem;
+        }
+        .feedback__detail{
+            font-size: .7rem;
+            margin-top: 6rem;
+            padding: 0 1.5rem;
+            line-height: 1.2rem;
+        }
+        .prev,
+    .next{
+    top: 5.5rem;
+    }
+        .prev,
+    .next{
+    top: 5.5rem;
+    }
+} 
 @media only screen and (max-width:450px){
     .feedback{
         text-align: center;
@@ -233,6 +299,10 @@ margin-top: 1.3rem;
             padding: 0 1.5rem;
             line-height: 1.2rem;
         }
+        .prev,
+    .next{
+    top: 5.5rem;
+    }
         .prev,
     .next{
     top: 5.5rem;
