@@ -130,9 +130,13 @@
 @media only screen and (max-width:450px){
     .contact__container{
         padding: 5rem 0rem;
+        width: 100%;
     }
     .contact {
         margin: 0;
         padding: 0;
+    }
+    .contact .form{
+        width: 100%;
     }
 }
