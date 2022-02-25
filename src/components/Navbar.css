@@ -31,6 +31,39 @@
   text-decoration: none;
   list-style: none;
 }
+.menu-icon{
+  display: none;
+}
+.active-menu{
+  display: block;
+}
+.active-menu ul{
+position: fixed;
+height: 50vh;
+width: 100%;
+background-color: #f1f1f1;
+top: 10%;
+left: 0;
+}
+.active-menu ul li{
+  list-style: none;
+  padding: .3rem 0;
+}
+.active-menu ul li:hover{
+  background-color: #00af4e;
+}
+.active-menu .nav-link{
+  
+    font-size: 1.5rem;
+    background-image: linear-gradient(60deg, #000428dc, #004e92e8);
+    background-clip: text;
+    color: transparent;
+    
+}
+.active-menu .nav-link:hover{
+  background-color: #00af4e;
+}
+
 
 .nav-link {
   text-decoration: none;
@@ -38,6 +71,7 @@
   text-transform: capitalize;
   font-weight: 400;
   padding: 0.4rem 0.6rem;
+  list-style: none;
 }
 
 .nav-link:hover {
@@ -50,9 +84,7 @@
   .logo{
     font-size: 1.8rem;
   }
-  /* .navbar-conatainer{
-    padding: 0 2rem;
-  } */
+ 
   .nav-links ul{
     margin-left: 4rem;
   }
@@ -69,5 +101,27 @@
   }
   .logo {
     font-size: 1.5rem;
+  }
+  .btn-primary{
+    display: none;
+  }
+  .navbar-conatainer {
+    padding: 0 1rem;
+  }
+  .menu-icon{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto 0; */
+  }
+  .fas{
+    margin-left: 3rem;
+    display: grid;
+    place-items: center;
+   font-size: 1.8rem;
+    color: #f1f1f1;
+    transition: all 0.3s;
   }
 }
