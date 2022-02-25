@@ -114,7 +114,7 @@
     margin: 0;
     font-weight: 600;
     width: 12rem;
-    z-index: 50000;
+    z-index: 500;
   }
   .btn-large:focus{
     outline: none;
