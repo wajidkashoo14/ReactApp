@@ -39,16 +39,17 @@ const Navbar = () => {
       <div className="menu-icon" onClick={handleClick}>
       <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
+
       <div className="social-container">
         <ul>
-          <Link className="social-link">
-          <i class="fa-brands fa-facebook">fi</i>
+          <Link className="social-link" to="/">
+          < i class="fa-brands fa-facebook" />
           </Link>
-          <Link className="social-link">
-          <i class="fa-brands fa-instagram">kaaz</i>
+          <Link className="social-link" to="/">
+          <i class="fa-brands fa-instagram" />
           </Link>
-          <Link className="social-link">
-          <i class="fa-brands fa-twitter">maaz</i>
+          <Link className="social-link" to="/">
+          <i class="fa-brands fa-twitter"/>
           </Link>
         </ul>
       </div>
