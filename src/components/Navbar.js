@@ -32,11 +32,27 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        
+      
       </div>
       <Button buttonStyle="btn-primary">download</Button>
       <div className="menu-icon" onClick={handleClick}>
       <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
+      <div className="social-container">
+        <ul>
+          <Link className="social-link">
+          <i class="fa-brands fa-facebook">fi</i>
+          </Link>
+          <Link className="social-link">
+          <i class="fa-brands fa-instagram">kaaz</i>
+          </Link>
+          <Link className="social-link">
+          <i class="fa-brands fa-twitter">maaz</i>
+          </Link>
+        </ul>
+      </div>
+
     </nav>
   );
 };

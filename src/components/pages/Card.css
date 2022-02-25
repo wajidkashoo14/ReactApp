@@ -143,6 +143,8 @@ link {
 
 }
 @media only screen and (max-width:450px){
+  
+  
   .card{
     margin: 2rem auto;
     width: 20rem;

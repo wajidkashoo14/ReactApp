@@ -104,7 +104,7 @@ svg{
 @media only screen and (max-width:450px){
   .hero-section{
     min-height: 80vh;
-    height: 170vh;
+    height: 190vh;
     z-index: 1;
     padding: 0 1.5rem;
   }
@@ -114,7 +114,6 @@ svg{
     width: 22rem;
   }
   .hero{
- 
   margin-top:8rem ;
   padding: 2rem 0;
 }
@@ -125,7 +124,7 @@ svg{
   width: 20rem;
 }
 .square_sq{
- top: 55%;
+ top: 60%;
 }
 .hero-svg{
   text-align: center;
