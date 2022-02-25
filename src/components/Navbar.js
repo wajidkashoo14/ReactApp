@@ -1,6 +1,10 @@
 import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import {FaFacebookF} from 'react-icons/fa'
+import {FiInstagram} from 'react-icons/fi'
+import {BsTwitter} from 'react-icons/bs'
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -15,7 +19,7 @@ const Navbar = () => {
 
 
       <div className={`${click  ? 'active-menu' : 'nav-links'}`}>
-        <ul>'
+        <ul className="list-container">'
           <li>
             <Link className="nav-link" to="/">
               home
@@ -31,22 +35,25 @@ const Navbar = () => {
               contact
             </Link>
           </li>
-        </ul>
-        <div className="social-container">
-        <ul>
-          <Link className="social-link" to="/">
-          < i class="fa-brands fa-facebook" />
-          </Link>
-          <Link className="social-link" to="/">
-          <i class="fa-brands fa-instagram" />
-          </Link>
-          <Link className="social-link" to="/">
-          <i class="fa-brands fa-twitter"/>
-          </Link>
+          <div className="social-container">
+            <ul className="social-icons">
+            <FaFacebookF />
+
+            <FiInstagram/>
+
+            <BsTwitter/>
+
+            
+              
         </ul>
       </div>
+          
+        </ul>
+
+       
       
       </div>
+     
       <Button buttonStyle="btn-primary">download</Button>
       <div className="menu-icon" onClick={handleClick}>
       <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
