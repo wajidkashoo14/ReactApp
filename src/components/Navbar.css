@@ -42,6 +42,7 @@ position: fixed;
 height: 50vh;
 width: 100%;
 background-color: #f1f1f1;
+opacity: 0.9;
 top: 10%;
 left: 0;
 }
@@ -49,9 +50,7 @@ left: 0;
   list-style: none;
   padding: .3rem 0;
 }
-.active-menu ul li:hover{
-  background-color: #00af4e;
-}
+
 .active-menu .nav-link{
   
     font-size: 1.5rem;
