@@ -32,15 +32,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        
-      
-      </div>
-      <Button buttonStyle="btn-primary">download</Button>
-      <div className="menu-icon" onClick={handleClick}>
-      <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-      </div>
-
-      <div className="social-container">
+        <div className="social-container">
         <ul>
           <Link className="social-link" to="/">
           < i class="fa-brands fa-facebook" />
@@ -53,6 +45,14 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
+      
+      </div>
+      <Button buttonStyle="btn-primary">download</Button>
+      <div className="menu-icon" onClick={handleClick}>
+      <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+      </div>
+
+     
 
     </nav>
   );

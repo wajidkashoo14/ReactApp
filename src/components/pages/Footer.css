@@ -163,3 +163,16 @@
     }
     
 }
+@media only screen and (max-width:450px){
+    .footer__form input{
+        width: 15rem;
+        height: 2.8rem;
+    }
+    .footer__form input::placeholder{
+        font-size: 1.1rem;
+    }
+    .footer{
+        padding: 2rem;
+    }
+    
+}
