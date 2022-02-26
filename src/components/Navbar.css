@@ -78,6 +78,22 @@ left: 0;
   border-radius: 5rem;
   transition: all 0.25s ease-in;
 }
+.nav-links .social-container{
+  display: flex;
+}
+.social-icons{
+  display: flex;
+  
+}
+.social-icons a .icon-social{
+  font-size: 1.8rem;
+  margin-right: 1.5rem;
+  color:#eff8fe;
+  transition:  color 0.2s ease;
+}
+.social-icons a .icon-social:hover{
+  color: #2E8B57;
+}
 
 
 @media  (min-width:1080px) and (max-width:1980px) {
