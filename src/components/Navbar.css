@@ -91,6 +91,7 @@ left: 0;
   color:#eff8fe;
   transition:  color 0.2s ease;
 }
+
 .social-icons a .icon-social:hover{
   color: #2E8B57;
 }
@@ -140,14 +141,13 @@ left: 0;
     color: #f1f1f1;
     transition: all 0.3s;
   }
-   .social-container{
+   .active-menu .social-container{
     display: flex;
-    position: inherit;
     position: absolute;
     bottom: 5%;
     left: 0;
   }
-  .active-menu .social-container ul{
+ .social-container .social-icons{
     display: flex;
 }
 .social-icons{
@@ -155,13 +155,14 @@ left: 0;
 }
 
 
-.icon-social{
+.social-icons a .icon-social{
   font-size: 2.2rem;
   margin-right: 1.5rem;
   color:#004e92e8;
   transition:  color 0.2s ease;
+  z-index: 1000;
 }
-.icon-social:hover{
+.social-icons a .icon-social:hover{
   color: #2E8B57;
 }
 }
