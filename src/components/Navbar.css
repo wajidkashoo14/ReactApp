@@ -103,7 +103,7 @@ left: 0;
     font-size: 1.5rem;
   }
   .btn-primary{
-    display: none;
+    display:none;
   }
   .navbar-conatainer {
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -115,7 +115,6 @@ left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: auto 0; */
   }
   .fas{
     margin-left: 3rem;
@@ -129,7 +128,7 @@ left: 0;
     display: flex;
     position: inherit;
     position: absolute;
-    bottom: 2%;
+    bottom: 5%;
     left: 0;
   }
   .active-menu .social-container ul{
@@ -138,17 +137,15 @@ left: 0;
 .social-icons{
   display: flex;
 }
- .social-link i {
-  font-size: 1rem;
-  color: #0575e6;
-  margin-right: 1rem;
+
+
+.icon-social{
+  font-size: 2.2rem;
+  margin-right: 1.5rem;
+  color:#004e92e8;
+  transition:  color 0.2s ease;
 }
-.social-link link i{
-  font-size: 1rem;
-  color: #0575e6;
-}
-.social-link .fa-brands{
-  font-size: 3rem;
-  color: #0575e6;
+.icon-social:hover{
+  color: #2E8B57;
 }
 }

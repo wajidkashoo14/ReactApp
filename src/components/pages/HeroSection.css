@@ -52,7 +52,7 @@
   max-width: 35rem;
 }
 
-svg{
+.icon-tabler{
   margin-left: .8rem;
 }
 
@@ -62,11 +62,6 @@ svg{
    top: 70%;
 }
 
-.triangle__home{
-  position: absolute;
-  top: 60%;
-  left: 70%;
-}
 @media only screen and (max-width:1440px){
   .hero .hero-heading{
     font-size: 2.7rem;
@@ -124,7 +119,7 @@ svg{
   width: 20rem;
 }
 .square_sq{
- top: 60%;
+ top: 50%;
 }
 .hero-svg{
   text-align: center;
@@ -141,7 +136,7 @@ svg{
 .hero .hero-description{
   margin-bottom: 4rem;
 }
-svg{
+.icon-tabler{
   margin-left: .3rem;
 }
 }

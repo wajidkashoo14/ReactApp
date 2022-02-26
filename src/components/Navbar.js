@@ -35,17 +35,13 @@ const Navbar = () => {
               contact
             </Link>
           </li>
+
           <div className="social-container">
             <ul className="social-icons">
-            <FaFacebookF />
-
-            <FiInstagram/>
-
-            <BsTwitter/>
-
-            
-              
-        </ul>
+              <Link to="https://www.facebook.com/"> <FaFacebookF className="icon-social" /></Link>
+              <Link><FiInstagram className="icon-social" /></Link>
+              <Link><BsTwitter className="icon-social" /></Link>
+            </ul>
       </div>
           
         </ul>
