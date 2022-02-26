@@ -140,7 +140,7 @@ left: 0;
     color: #f1f1f1;
     transition: all 0.3s;
   }
-  .active-menu .social-container{
+   .social-container{
     display: flex;
     position: inherit;
     position: absolute;
