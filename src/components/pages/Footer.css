@@ -1,178 +1,162 @@
- .footer__container{
-    position: relative;
-    height: 70vh;
-    width: 100%;
-} 
+.footer__container {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+}
 .custom-shape-divider-bottom-1644692735 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1644692735 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    max-height: 250px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  max-height: 250px;
 }
 
 .custom-shape-divider-bottom-1644692735 .shape-fill {
-    fill: #0353BD;
+  fill: #0353bd;
 }
 
-.footer{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    max-width: 80%;
-    min-height: 12rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem;
-    align-items: center;
-    backdrop-filter: blur(24px) saturate(200%);
-    -webkit-backdrop-filter: blur(24px) saturate(200%);
-    background-color: rgba(64, 54, 156, 0.288);
-    border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.151);
-    z-index: 500;
-    
+.footer {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+  min-height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  align-items: center;
+  backdrop-filter: blur(24px) saturate(200%);
+  -webkit-backdrop-filter: blur(24px) saturate(200%);
+  background-color: rgba(64, 54, 156, 0.288);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.151);
+  z-index: 500;
 }
 
-.headings h3{
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    font-family: poppins,sans-serif;
-    font-weight: 500;
-    color: #4B0082;
-    padding: 0 .3rem;
-    border-left: 3px solid #FF4500;
-    margin: 1rem 0;
+.headings h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  color: #4b0082;
+  padding: 0 0.3rem;
+  border-left: 3px solid #ff4500;
+  margin: 1rem 0;
 }
 
-
-.headings h1{
-    font-size: 2rem;
-    text-transform: capitalize;
-    letter-spacing: .1rem;
-    font-family: poppins,sans-serif;
-    font-weight: 600;
-    background-image: linear-gradient(60deg, #000428dc, #004e92e8);
-    background-clip: text;
-    color: transparent;
-    margin: 1rem 0;
+.headings h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  background-image: linear-gradient(60deg, #000428dc, #004e92e8);
+  background-clip: text;
+  color: transparent;
+  margin: 1rem 0;
 }
 
-.footer__form{
-    display: flex;
-    z-index: 1000;
-    
+.footer__form {
+  display: flex;
+  z-index: 1000;
 }
 
-.footer__form input{
-    max-width: 18rem;
-    max-height: 3.5rem;
-    margin-right: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.4rem;
-    padding-left: 1rem;
+.footer__form input {
+  max-width: 18rem;
+  max-height: 3.5rem;
+  margin-right: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  padding-left: 1rem;
 }
 
-.footer__form input::placeholder{
-    font-size: 1.4rem;
+.footer__form input::placeholder {
+  font-size: 1.4rem;
 }
 
-@media only screen and (max-width:1440px) {
-    
-    
-    .footer{
-        max-width: 100%;
-        width: 80%;
-    }
-    .headings h1{
-        font-size: 1.5rem;
-        
-    }
+@media only screen and (max-width: 1440px) {
+  .footer {
+    /* max-width: 100%; */
+    width: 80%;
+  }
+  .headings h1 {
+    font-size: 1.5rem;
+  }
 }
-@media only screen and (max-width:1150px) {
-  
-    .headings h1{
-        font-size: 1.1rem;
-    }
-    .footer{
-        max-width: 100%;
-        width: 80%;
-    }
+@media only screen and (max-width: 1150px) {
+  .headings h1 {
+    font-size: 1.1rem;
+  }
+  .footer {
+    /* max-width: 100%; */
+    width: 80%;
+  }
 }
-@media only screen and (max-width:1050px) {
-  
-    .footer{
-        display: block;
-    }
-    .headings h1{
-        margin-top: 2rem ;
-    }
-    .custom-shape-divider-bottom-1644692735 svg {
-        height: 250px;
-    }
-
-   
-
+@media only screen and (max-width: 1050px) {
+  .footer {
+    display: block;
+    width: 100%;
+  }
+  .headings h1 {
+    margin-top: 2rem;
+  }
+  .custom-shape-divider-bottom-1644692735 svg {
+    height: 250px;
+  }
 }
-@media only screen and (max-width:700px) {
-  
-   
-    .footer__form{
-        display: block;
-        margin-top: 2rem;
-        
-    }
-    .footer__form input{
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
+@media only screen and (max-width: 700px) {
+  .footer__form {
+    display: block;
+    margin-top: 2rem;
+  }
+  .footer__form input {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
 
-    .footer__form input{
-        margin-top: -1rem;
-        height: 2.5rem;
-    }
-    .custom-shape-divider-bottom-1644692735 svg {
-        height: 150px;
-    }
-
+  .footer__form input {
+    margin-top: -1rem;
+    height: 2.5rem;
+  }
+  .custom-shape-divider-bottom-1644692735 svg {
+    height: 150px;
+  }
 }
 
-@media only screen and (max-width:650px){
-    .footer__form input{
-        width: 20rem;
-        height: 2.8rem;
-    }
-    .footer__form input::placeholder{
-        font-size: 1.1rem;
-    }
-    .footer{
-        padding: 2rem;
-    }
-    
+@media only screen and (max-width: 650px) {
+  .footer__form input {
+    width: 20rem;
+    height: 2.8rem;
+  }
+  .footer__form input::placeholder {
+    font-size: 1.1rem;
+  }
+  .footer {
+    padding: 2rem;
+  }
 }
-@media only screen and (max-width:450px){
-    .footer__form input{
-        width: 15rem;
-        height: 2.8rem;
-    }
-    .footer__form input::placeholder{
-        font-size: 1.1rem;
-    }
-    .footer{
-        padding: 2rem;
-    }
-    
+@media only screen and (max-width: 450px) {
+  .footer__form input {
+    width: 15rem;
+    height: 2.8rem;
+  }
+  .footer__form input::placeholder {
+    font-size: 1.1rem;
+  }
+  .footer {
+    padding: 2rem;
+  }
 }

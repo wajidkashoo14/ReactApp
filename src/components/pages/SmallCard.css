@@ -72,10 +72,17 @@
     height: 4rem;
     width: 4rem;
 }
-@media only screen and (max-width:1440px){
+@media only screen and (max-width:1980px){
     .square{
     
-        left: 15%;
+        left: 30%;
+       
+    }
+}
+@media only screen and (max-width:1600px){
+    .square{
+    
+        left: 20%;
        
     }
 }
